@@ -92,16 +92,20 @@ generateApple()
 
 function control(e) {
     if (e.keyCode === 39) {
+    e.preventDefault()
     direction = 1
     } else if (e.keyCode === 38) {
+    e.preventDefault()
     direction = -width
     } else if (e.keyCode === 37) {
+    e.preventDefault()
     direction = -1
     } else if (e.keyCode === 40) {
+    e.preventDefault()
     direction = +width
     }
 }
 
 
-document.addEventListener('keyup', control)
+document.addEventListener('keydown', control)
 btnStart.addEventListener('click', startGame)

@@ -4,6 +4,7 @@ body {
   font-family: "Press Start 2P", sans-serif;
   text-align: center;
   background-image: url(images/90s-background.jpg);
+  height: 100vh;
 }
 
 button {
@@ -22,7 +23,7 @@ button:hover {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 42px;
 }
 
 .container {
@@ -30,9 +31,8 @@ h1 {
   max-width: 600px;
   background: #ee75ad;
   padding: 50px 20px;
-  margin-top: 10px;
   border: white 3px solid;
-  height: 95%;
+  height: 90vh;
 }
 
 .grid {
