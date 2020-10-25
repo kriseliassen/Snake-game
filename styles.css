@@ -56,6 +56,7 @@ h1 {
   background-color: #53b25b;
   box-sizing: border-box;
   border: 1px solid #2d6532;
+  border-radius: 40%;
 }
 
 .apple {
