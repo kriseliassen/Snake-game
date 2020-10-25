@@ -54,3 +54,9 @@ h1 {
 .snake {
   background-color: #53b25b;
 }
+
+.apple {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+}
