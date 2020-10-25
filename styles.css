@@ -30,8 +30,9 @@ h1 {
   max-width: 600px;
   background: #ee75ad;
   padding: 50px 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   border: white 3px solid;
+  height: 95%;
 }
 
 .grid {
