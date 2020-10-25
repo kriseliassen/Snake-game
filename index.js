@@ -10,7 +10,7 @@ let appleIndex = 0
 let timerId = 0
 let score = 0
 let speed = 0.9
-let intervalTime = 800
+let intervalTime = 600
 
 
 function createGrid() {

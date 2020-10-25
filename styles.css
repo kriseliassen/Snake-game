@@ -53,6 +53,8 @@ h1 {
 
 .snake {
   background-color: #53b25b;
+  box-sizing: border-box;
+  border: 1px solid #2d6532;
 }
 
 .apple {
